@@ -9,10 +9,8 @@ public class main {
 				.name("foo")
 				.id(1)
 				.build();
-		
-		assertThat(testWidget.getName()).isEqualTo("foo");
-		assertThat(testWidget.getId()).isEqualTo(1);
-		
+
+		System.out.println("Nombre = " + testWidget.getName() + " id: " + testWidget.getId());
 	}
 
 }
